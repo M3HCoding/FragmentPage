@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ll_one"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#9E9D24"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/listView_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </ListView>
+
+    <EditText
+        android:id="@+id/editText_one"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_weight="1"
+        android:background="#EF6C00"
+        android:hint="Enter Message"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:onClick="send"
+        android:gravity="center"
+        android:text="Send"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:background="#F9A825"
+        android:layout_weight="1"/>
+
+</LinearLayout>
